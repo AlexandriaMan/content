@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/dig-eg-gaz/resources/master/out/egSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Digital Egyptian Gazette</title>
+                <title level="m" type="sub">An encoded transcription</title>
+                <editor>Jonathan Cannon</editor>
+                <principal>Will Hanley</principal>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date when="2018-01-28">January 28, 2018</date>
+                    <gloss>1</gloss>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>FSU University Libraries</publisher>
+                <pubPlace>Tallahassee, FL</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>The Egyptian Gazette</title>
+                    <date when="1906-08-06"><name>Saturday</name>, August 11, 1906</date>
+                    <extent><measure unit="pages" quantity="8">8</measure> pages</extent>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="page" n="1">
+                <div type="masthead">
+                    <head>THE EGYPTIAN GAZETTE</head>
+                    <head type="sub">No. <measure quantity="7569">7,569</measure>] ALEXANDRIA,
+                        SATURDAY, AUGUST 11, 1906. [EIGHT PAGES P.T. 1. </head>
+                    <div type="advert" xml:id="deg-ad-etc01">
+                        <head>The Eastern Telegraph Company, Limited.</head>
+                        <p>This Company's system of submarine telegraph <lb/>cables is the most
+                            direct and quickest means of <lb/>communication from Egypt to Europe,
+                            North and <lb/>South America, East, South and West Africa, <lb/>India,
+                            Australia, New Zealand, China and Japan.</p>
+                        <p>To secure quick transmission, telegrams should <lb/>be marked <hi>Via
+                            Eastern.</hi></p>
+                        <p>For latest average time to London, see daily <lb/>bulletin in this
+                            paper.</p>
+                        <p>STATIONS IN EGYPT: Alexandria, Cairo, <lb/>Suez, Port-Tewfik, Port-Saïd,
+                            Suakin. Head <lb/>Office. London.</p>
+                        <div type="advert" xml:id="deg-ad-sfp01">
+                            <p>Throw Steel Nibs Away!</p>
+                            <p>They waste time, are costly to use, wear out, scratch, etc.</p>
+                            <p>Try a "Swan" Fountain Pen.</p>
+                            <p>Prices from 10/6</p>
+                            <p>Sold by all Stationers and Importers in Cairo and Alexandria.</p>
+                            <p>Catalogue free.</p>
+                            <p>Mable, Todd &amp; Bard, High Holborn, London.</p>
+                        </div>
+                    </div>
+                </div>
+                <div type="section" scope="advertisement">
+                    <cols n="3"/>
+                    <cb n="1"/>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
